@@ -5,7 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: './', // <--- THIS IS THE MAGIC FIX
+      // ⬇️ THIS IS THE MISSING LINE THAT FIXES THE WHITE SCREEN ⬇️
+      base: './', 
+      
       server: {
         port: 3000,
         host: '0.0.0.0',
