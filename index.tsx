@@ -26,7 +26,7 @@
             }
         }
     </script>
-    </head>
+</head>
 <body class="bg-white text-brand-blue font-sans">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
