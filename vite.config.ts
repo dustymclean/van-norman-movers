@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // ⬇️ THIS IS THE CRITICAL MISSING LINE ⬇️
+      // ⬇️ THIS LINE WAS MISSING ⬇️
       base: './',
       
       server: {
