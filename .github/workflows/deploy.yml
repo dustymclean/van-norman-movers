@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # The "CI: false" setting prevents crashes on small warnings
+      # This is the "Safe Mode" fix you used before
       - name: Build
         run: npm run build
         env:
