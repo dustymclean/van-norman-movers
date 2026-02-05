@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { SERVICES, COMPANY_INFO } from '../constants';
@@ -9,7 +8,6 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-[85vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-brand-blue via-brand-blue/60 to-transparent z-10"></div>
-        {/* Using a structural house move image */}
         <img 
           src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?q=80&w=2072&auto=format&fit=crop" 
           alt="Large structural house being lifted by hydraulic equipment" 
@@ -17,6 +15,7 @@ const Home: React.FC = () => {
         />
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="max-w-3xl">
+            {/* REMOVED OFFICIAL WEBSITE BANNER HERE */}
             <h1 className="font-heading text-5xl md:text-8xl font-black mb-6 leading-tight uppercase tracking-tight">
               Moving <span className="text-brand-gold">Mississippi & Louisiana</span> Since 2001
             </h1>
